@@ -2,6 +2,7 @@ import { colors } from '@material-ui/core';
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import Items from './Items';
+import Card from './Card';
 
 function Home(component){
 
@@ -12,9 +13,10 @@ function Home(component){
             <h3 className="center">Penguin Supplies:</h3>
             
             <div className="box">
-                {}
+                <Card/>
             </div>
         </div>
+        
         )
     }
         
