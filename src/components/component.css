@@ -1,7 +1,27 @@
 .box {
-    background-color:black
+    border: coral;
 }
 
 .home-container {
-    align-self: auto;
+    text-align: center;
+}
+
+.navlist {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    color:white;
+}
+
+.navbar-logo {
+    text-align: center;
+    font-size: large;
+    color:white;
+}
+
+.shop-container {
+
+    color:white;
+    
 }
