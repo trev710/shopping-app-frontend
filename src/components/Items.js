@@ -91,7 +91,7 @@ function Items(){
    
        },     
  ]
- let Item = Items.map(Item)
+ let item = Items.map(item)
 }
 
 export default Items
