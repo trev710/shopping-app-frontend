@@ -15,6 +15,7 @@ function Home(component){
             
             <div className="shop-container">
                 <Card/>
+            {/* will be a container of all the cards once cards are working*/}
             </div>
         </div>
         
