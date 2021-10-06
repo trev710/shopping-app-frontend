@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import Items from './Items';
 import Card from './Card';
+import ItemList from './ItemList';
 import './component.css'
 
 function Home(component){
@@ -14,7 +15,7 @@ function Home(component){
             <h3 className="shop">Penguin Supplies:</h3>
             
             <div className="shop-container">
-                <Card/>
+                <Card />
             {/* will be a container of all the cards once cards are working*/}
             </div>
         </div>
