@@ -7,7 +7,7 @@ function NewPenguinForm({ onAddPenguin }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("http://localhost:4000", {
+    fetch("http://localhost:4000/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
