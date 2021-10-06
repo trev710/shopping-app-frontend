@@ -12,9 +12,9 @@ function Card(item){
     return (
         <li className="penguin-card">
         <div className="card-container">
-    <h3>Name:{item.name}</h3>
-    <img src={item.img} alt="item image"></img>
-    <h4>Price:{item.cost}</h4>
+    <h3>Name:{name}</h3>
+    <img src={img} alt="item image"></img>
+    <h4>Price:{cost}</h4>
     <button type="button" className="btn-primary" onClick={console.log("hi")}>
         Add to Cart
 </button>
