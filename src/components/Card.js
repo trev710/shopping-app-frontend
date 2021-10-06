@@ -14,11 +14,11 @@ function Card(item){
         <div className="card-container">
     <h3>Name:{item.name}</h3>
     <img src={item.img} alt="item image"></img>
-    <h3>Price:{item.cost}</h3>
+    <h4>Price:{item.cost}</h4>
     <button type="button" className="btn-primary" onClick={console.log("hi")}>
         Add to Cart
 </button>
-    <h4>description{item.description}</h4>
+    <h5>Description:{description}</h5>
 
         </div>
     </li>

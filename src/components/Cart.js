@@ -2,24 +2,16 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import { removeItem,addQuantity,subtractQuantity} from './actions/cartActions'
 import { connect } from 'react-redux'
+import "./component.css"
 
-function Cart(component){
+
+function Cart(item){
     return (
-        <div className="cart">
-            <p>We need a list to hold the items added from the homepage</p>
-            <p>
-                We need the option to delete items from the checkout
-            </p>
-             <p>we need a total from the cost key to be displayed, and accumlative
-            </p>
-            <p>
-                We need a button that uses the same route as the checkout link
-            </p>
+        <div className="cart-image">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe5%2F42%2Fcf%2Fe542cf73a2bda32b79b11db88f1f7137.jpg&f=1&nofb=1" />
 
-        </div>
-    )
-
-}
+        </div>    
+)}
 
 
 
