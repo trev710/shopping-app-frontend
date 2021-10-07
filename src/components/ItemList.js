@@ -1,4 +1,4 @@
-import Card from './Card'
+import PenguinCard from './PenguinCard'
 
 function ItemList ( {items} ) {
 
@@ -6,7 +6,7 @@ return (
     <ul className="cards">
         {items.map((item) => {
             return (
-                <Card />
+                <PenguinCard />
             )
         })}
     </ul>
