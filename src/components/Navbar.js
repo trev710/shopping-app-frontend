@@ -13,6 +13,7 @@ import './component.css'
                         <li><Link to="/">Shop Penguins/Supplies</Link></li>
                         <li><Link to="/cart">My Cart</Link></li>
                         <li><Link to="/checkout">Checkout</Link></li>
+                        <li><Link to="/login">Login</Link></li>
                     </ul>
                 </div>
             </nav>  

@@ -1,5 +1,5 @@
 function Items(){
-    let itemsarr = [
+    let items = [
     {
      id:"1",
      name:"Emperor Penguin",
@@ -91,7 +91,6 @@ function Items(){
    
        },     
  ]
- let item = Items.map(item)
 }
 
 export default Items
