@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { BrowserRouter } from 'react-router-dom'
 
+
 function Login() {
 
     const [inputField , setInputField] = useState({
@@ -15,7 +16,18 @@ function Login() {
     }
 
     const loginButton = () =>{
-        alert (`successfully logged in: ${inputField.user_name}`);
+        alert (`successfully logged in: ${inputField.user_name}`) 
+    //     return (
+    //     <div className home-route>    
+    //         <BrowserRouter>
+    //         <Route exact path= "/">
+    //            <Home /> 
+
+    //         </Route>
+    //         </BrowserRouter>
+    // </div>        
+
+    //     );
     }
 
     return (
@@ -32,7 +44,7 @@ function Login() {
             <input 
             type="password" 
             name="Password" 
-            onChange={inputsHandler} 
+            // onChange={inputsHandler} 
             placeholder="Password" 
             value={inputField.Password}/>
 
