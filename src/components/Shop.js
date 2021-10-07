@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import PenguinCard from './components/PenguinCard'
+import PenguinCard from './PenguinCard'
 
 function Shop(penguins) {
 

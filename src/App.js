@@ -1,12 +1,12 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import {BrowserRouter, Route, NavLink, Switch} from 'react-router-dom'
-// import Navbar from './components/Navbar'
 import Cart from './components/Cart';
 import Home from './components/Home';
 import PenguinCard from './components/PenguinCard';
 import Checkout from './components/Checkout';
 import Shop from './components/Shop';
+// import Navbar from './components/Navbar'
 
 function App() {
 

@@ -10,8 +10,6 @@ return (
             )
         })}
     </ul>
-
-
 )}
 
 export default ItemList
