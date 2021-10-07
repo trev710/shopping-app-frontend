@@ -16,7 +16,6 @@ function Login() {
 
     const loginButton = () =>{
         alert (`successfully logged in: ${inputField.user_name}`);
-        // return ( <Redirect to="/home" />
     }
 
     return (
@@ -31,7 +30,7 @@ function Login() {
             <br/>
 
             <input 
-            type="text" 
+            type="password" 
             name="Password" 
             onChange={inputsHandler} 
             placeholder="Password" 
